@@ -3,6 +3,7 @@ body {
   margin: 20px;
   background-image: url(meAndYou.jpg);
   background-size: cover;
+  height: 80vh;
 }
 
 h1 {
@@ -37,9 +38,11 @@ a {
   margin: 4px 2px;
   cursor: pointer;
   width: 50%;
+  margin-top: 285px;
 }
 
 .messageText {
   line-height: 1.5;
   display: block;
+  white-space: pre-line;
 }
