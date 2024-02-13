@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  background-image: url(meAndYou.jpg);
+  background-position: "cover";
 }
 
 footer {
@@ -8,4 +10,10 @@ footer {
   margin-top: 20px;
   padding: 10px;
   background-color: #f4f4f4;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
