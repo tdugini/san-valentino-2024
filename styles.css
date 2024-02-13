@@ -4,6 +4,7 @@ body {
   background-image: url(meAndYou.jpg);
   background-size: cover;
   height: 80vh;
+  filter: blur(5px);
 }
 
 h1 {
@@ -47,7 +48,6 @@ div {
 
 .messageText {
   line-height: 1.5;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  display: block;
+  text-align: center;
 }
