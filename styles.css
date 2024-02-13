@@ -13,9 +13,13 @@ h1 {
   color: whitesmoke;
 }
 
-div,
-a {
+div {
   color: whitesmoke;
+}
+
+.linkKoko {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .bodyMessage {
