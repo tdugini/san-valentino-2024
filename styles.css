@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Classy Marisa", cursive;
   margin: 20px;
   background-image: url(meAndYou.png);
   background-size: cover;
@@ -20,6 +20,7 @@ div {
 .linkKoko {
   color: whitesmoke;
   text-decoration: none;
+  font-family: "Classy Marisa", cursive;
 }
 
 .bodyMessage {
@@ -42,11 +43,12 @@ div {
   margin: 4px 2px;
   cursor: pointer;
   width: 50%;
-  margin-top: 285px;
+  margin-top: 165px;
 }
 
 .messageText {
   line-height: 2;
   display: block;
   text-align: center;
+  font-family: "Classy Marisa", cursive;
 }
