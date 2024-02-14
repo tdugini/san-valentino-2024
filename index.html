@@ -29,8 +29,8 @@
         </a>
       </button class="button">
       
-      <button id="birthdayButton" class="button" onclick="test()">
-        <a class="linkKoko" href="https://maps.app.goo.gl/kmHLVPgzctkcsyfx7">
+      <button id="birthdayButton" class="button" onclick="">
+        <a id="birthdayLink" class="linkKoko" href="https://maps.app.goo.gl/kmHLVPgzctkcsyfx7">
           Scopri anche il tuo regalo di compleanno
         </a>
       </button>
@@ -44,13 +44,13 @@
             console.log(dataLimite)
 
             var birthdayButton = document.getElementById('birthdayButton');
+            var birthdayLink = document.getElementById('birthdayLink');
+
             if (today >= dataLimite) {
               birthdayButton.setAttribute("class", "disabled")
+              birthdayLink.setAttribute("class", "disabled")
+              birthdayLink.setAttribute("style", "color: grey;"); 
             }
-        }
-
-        function test(){
-          console.log("test")
         }
 
         window.onload = ableButton();
