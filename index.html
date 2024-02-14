@@ -29,7 +29,7 @@
         </a>
       </button class="button">
       
-      <button id="birthdayButton" class="button" disabled>
+      <button id="birthdayButton" class="button" onclick="test()">
         <a class="linkKoko" href="https://maps.app.goo.gl/kmHLVPgzctkcsyfx7">
           Scopri anche il tuo regalo di compleanno
         </a>
@@ -40,7 +40,7 @@
             var today = new Date();
             console.log(today)
             var dataLimite = new Date('2024-02-15');
-            
+
             console.log(dataLimite)
 
             var birthdayButton = document.getElementById('birthdayButton');
@@ -48,7 +48,14 @@
               birthdayButton.setAttribute("class", "disabled")
             }
         }
+
+        function test(){
+          console.log("test")
+        }
+
         window.onload = ableButton();
+
+
     </script>
 
     </div>
