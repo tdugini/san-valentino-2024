@@ -38,10 +38,14 @@
       <script>
         function ableButton() {
             var today = new Date();
+            console.log(today)
             var dataLimite = new Date('2024-02-15');
+            
+            console.log(dataLimite)
 
+            var birthdayButton = document.getElementById('birthdayButton');
             if (today >= dataLimite) {
-                document.getElementById('birthdayButton').disabled = false;
+              birthdayButton.setAttribute("class", "disabled")
             }
         }
         window.onload = ableButton();
