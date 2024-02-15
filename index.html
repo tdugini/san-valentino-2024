@@ -29,34 +29,17 @@
         </a>
       </button class="button">
       
-      <!-- <button id="birthdayButton" class="button" onclick="">
-        <a id="birthdayLink" class="linkKoko" href="https://maps.app.goo.gl/kmHLVPgzctkcsyfx7">
+      <button id="birthdayButton" class="button" onclick="redirectCompleanno()">
           Scopri anche il tuo regalo di compleanno
-        </a>
       </button>
 
+
       <script>
-        function ableButton() {
-            var today = new Date();
-            console.log(today)
-            var dataLimite = new Date('2024-02-15');
-            console.log(dataLimite)
-
-            var birthdayButton = document.getElementById('birthdayButton');
-            var birthdayLink = document.getElementById('birthdayLink');
-
-            if (today >= dataLimite) {
-              birthdayButton.setAttribute("class", "disabled")
-              birthdayLink.setAttribute("class", "disabled")
-              birthdayLink.setAttribute("style", "color: grey;"); 
-            }
+        function redirectCompleanno() {
+          window.location.href = "compleanno.html";
         }
-
-        window.onload = ableButton();
-
-
-    </script> -->
-
+      </script>
+      
     </div>
   </body>
 </html>
